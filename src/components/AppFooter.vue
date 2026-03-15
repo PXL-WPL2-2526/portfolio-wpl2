@@ -45,7 +45,7 @@ onUnmounted(() => {
         <a href="https://www.linkedin.com/in/giel-boogaerts-581b96224/">LinkedIn</a>
       </div>
       <div class="privacyPolicy">
-        <a href="@/assets/privacyPolicy" download>Privacy policy</a>
+        <a href="/privacyPolicy.pdf" download>Privacy policy</a>
       </div>
       <div class="filler"></div>
     </div>

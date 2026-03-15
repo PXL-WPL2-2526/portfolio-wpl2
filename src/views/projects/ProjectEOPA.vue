@@ -23,7 +23,7 @@
       <img class="fifth" src="@/assets/work/eopa/COV_content.webp" alt="">
       <img class="fourth" src="@/assets/work/eopa/COV_spread.webp" alt="">
       <p>2025</p>
-      <a href="@/assets/work/eopa/EOPA_thesis_GielBoogaerts.pdf" download>Download thesis</a>
+      <a href="/EOPA_thesis_GielBoogaerts.pdf" download>Download thesis</a>
     </section>
   </main>
 </template>

@@ -9,7 +9,7 @@
       <p>Publication for navigating between poster and booklet</p>
       <img class="first" src="@/assets/work/microtype/MT_booklet&poster1.webp" alt="">
       <img class="second" src="@/assets/work/microtype/MT_cover.webp" alt="">
-      <p>Based on artikel <span>"Heeft de koning schoenmaat 49?"</span> by Martin Majoor</p>
+      <p>Based on artikel <span>"Had de koning schoenmaat 49?"</span> by Martin Majoor</p>
       <img class="third" src="@/assets/work/microtype/MT_spread1.webp" alt="">
       <img class="fourth" src="@/assets/work/microtype/MT_booklet&poster2.webp" alt="">
       <img class="fifth" src="@/assets/work/microtype/MT_poster.webp" alt="">

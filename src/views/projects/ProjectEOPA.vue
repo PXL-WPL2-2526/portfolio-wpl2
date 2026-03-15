@@ -63,10 +63,6 @@ img {
   width: 45%;
 }
 
-.full {
-  width: 100%;
-}
-
 .first {
   margin-left: 5vw;
 }

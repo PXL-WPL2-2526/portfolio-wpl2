@@ -54,17 +54,9 @@ img {
   margin-left: 15vw;
 }
 
-.fourth {
-  margin-left: 50vw;
-}
-
 @media screen and (max-width: 450px) {
   img {
     width: 60%;
-  }
-
-  .fourth {
-    margin-left: 30vw;
   }
 }
 

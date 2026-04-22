@@ -161,6 +161,14 @@ img {
   img {
     width: 80%;
   }
+
+  .fourth {
+    margin-left: 18vw;
+  }
+
+  .back {
+    margin-bottom: 0;
+  }
 }
 
 

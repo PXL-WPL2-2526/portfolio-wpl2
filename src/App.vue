@@ -25,6 +25,8 @@ import AppLoader from "@/components/AppLoader.vue";
 }
 
 @media screen and (max-width: 650px) {
-  gap: 1rem;
+  #app {
+    gap: 1rem;
+  }
 }
 </style>

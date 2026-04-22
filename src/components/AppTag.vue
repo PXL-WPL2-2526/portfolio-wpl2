@@ -55,6 +55,7 @@ onUnmounted(() => {
   mix-blend-mode: screen;
   z-index: 100;
   transition: opacity 0.4s ease;
+  pointer-events: none;
 }
 
 .tag.hidden {

@@ -1,62 +1,91 @@
 <script setup>
+import projects from '@/projects/projects.json'
 
+const projectMap = Object.fromEntries(
+    projects.map(p => [p.id, p])
+)
 </script>
 
 <template>
   <main>
     <h1>WORK</h1>
+
     <section>
       <div class="first">
-        <RouterLink to="/microtype">
-          <img src="@/assets/work/microtype/MT_booklet&poster1.webp" alt="">
-          <div class="text"><span>MICROTYPE</span><span>2022</span></div>
+        <RouterLink :to="`/projects/${projectMap.microtype.id}`">
+          <img :src="projectMap.microtype.cover" />
+          <div class="text">
+            <span>{{ projectMap.microtype.title }}</span>
+            <span>{{ projectMap.microtype.year }}</span>
+          </div>
         </RouterLink>
-        <RouterLink to="/jumbledscript">
-          <img src="@/assets/work/jumbledscript/JS_spread1.webp" alt="">
-          <div class="text"><span>JUMBLED SCRIPT</span><span>2024</span></div>
+
+        <RouterLink :to="`/projects/${projectMap.jumbledscript.id}`">
+          <img :src="projectMap.jumbledscript.cover" />
+          <div class="text">
+            <span>{{ projectMap.jumbledscript.title }}</span>
+            <span>{{ projectMap.jumbledscript.year }}</span>
+          </div>
         </RouterLink>
       </div>
+
       <div class="second">
-        <RouterLink to="/eopa">
-          <img id="eopa" src="@/assets/work/eopa/covers.webp" alt="">
-          <div class="text"><span>ENCYCLOPEDIA OF PHONETIC ALPHABETS</span><span>2025</span></div>
+        <RouterLink :to="`/projects/${projectMap.eopa.id}`">
+          <img id="eopa" :src="projectMap.eopa.cover" />
+          <div class="text">
+            <span>{{ projectMap.eopa.title }}</span>
+            <span>{{ projectMap.eopa.year }}</span>
+          </div>
         </RouterLink>
       </div>
+
       <div class="third">
-        <RouterLink to="/typeinterplay">
-          <img src="@/assets/work/typeinterplay/TIP_spread02.webp" alt="">
-          <div class="text"><span>TYPE-INTER-PLAY</span><span>2024</span></div>
+        <RouterLink :to="`/projects/${projectMap.typeinterplay.id}`">
+          <img :src="projectMap.typeinterplay.cover" />
+          <div class="text">
+            <span>{{ projectMap.typeinterplay.title }}</span>
+            <span>{{ projectMap.typeinterplay.year }}</span>
+          </div>
         </RouterLink>
-        <RouterLink to="/virgajesse">
-          <img src="@/assets/work/virgajesse/VG_hommages.webp" alt="">
-          <div class="text"><span>VIRGA JESSE</span><span>2024</span></div>
+
+        <RouterLink :to="`/projects/${projectMap.virgajesse.id}`">
+          <img :src="projectMap.virgajesse.cover" />
+          <div class="text">
+            <span>{{ projectMap.virgajesse.title }}</span>
+            <span>{{ projectMap.virgajesse.year }}</span>
+          </div>
         </RouterLink>
       </div>
+
       <div class="fourth">
-        <RouterLink to="/enzomari">
-          <img src="@/assets/work/enzomari/EM_poster2.webp" alt="">
-          <div class="text"><span>ENZO MARI</span><span>2022</span></div>
+        <RouterLink :to="`/projects/${projectMap.enzomari.id}`">
+          <img :src="projectMap.enzomari.cover" />
+          <div class="text">
+            <span>{{ projectMap.enzomari.title }}</span>
+            <span>{{ projectMap.enzomari.year }}</span>
+          </div>
         </RouterLink>
-        <RouterLink to="/archetype">
-          <img src="@/assets/work/archetype/ARCH_spread1.webp" alt="">
-          <div class="text"><span>ARCHETYPE</span><span>2022</span></div>
+
+        <RouterLink :to="`/projects/${projectMap.archetype.id}`">
+          <img :src="projectMap.archetype.cover" />
+          <div class="text">
+            <span>{{ projectMap.archetype.title }}</span>
+            <span>{{ projectMap.archetype.year }}</span>
+          </div>
         </RouterLink>
       </div>
+
       <div class="fifth">
-        <RouterLink to="/paa">
-          <img src="@/assets/work/phoneticalphabet/PAA_homepage.webp" alt="">
-          <div class="text"><span>THE PHONETIC ALPHABET ARCHIVE</span><span>2026</span></div>
-        </RouterLink>
-      </div>
-      <div class="first">
-        <RouterLink to="/dashboard">
-          <img src="@/assets/work/dashboard/Dashboard_information.webp" alt="">
-          <div class="text"><span>DASHBOARD</span><span>2025</span></div>
+        <RouterLink :to="`/projects/${projectMap.dashboard.id}`">
+          <img :src="projectMap.dashboard.cover" />
+          <div class="text">
+            <span>{{ projectMap.dashboard.title }}</span>
+            <span>{{ projectMap.dashboard.year }}</span>
+          </div>
         </RouterLink>
       </div>
     </section>
   </main>
-
 </template>
 
 <style scoped>
@@ -166,7 +195,7 @@ section {
   }
 
   #eopa {
-    content:url("@/assets/work/eopa/covers_vertical.webp");
+    content:url("/work/eopa/covers_vertical.webp");
   }
 
   .third {

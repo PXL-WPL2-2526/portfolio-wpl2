@@ -41,8 +41,8 @@ onUnmounted(() => {
         <p class="name">Giel Boogaerts</p>
       </div>
       <div>
-        <a href="https://www.instagram.com/gielboogaerts.studio/">Instagram</a>
-        <a href="https://www.linkedin.com/in/giel-boogaerts-581b96224/">LinkedIn</a>
+        <a href="https://www.instagram.com/gielboogaerts.studio/" target="_blank">Instagram</a>
+        <a href="https://www.linkedin.com/in/giel-boogaerts-581b96224/" target="_blank">LinkedIn</a>
       </div>
       <div class="privacyPolicy">
         <a href="/privacyPolicy.pdf" download>Privacy policy</a>

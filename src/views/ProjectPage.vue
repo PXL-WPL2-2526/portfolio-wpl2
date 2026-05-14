@@ -44,7 +44,7 @@ defineProps({
 
         <!-- TEXT (kept from JSON as-is — these are captions, not UI text) -->
         <p v-else-if="block.type === 'text'">
-          {{ block.value }}
+          {{ block.key ? t(`captions.${block.key}`) : block.value }}
         </p>
 
       </template>

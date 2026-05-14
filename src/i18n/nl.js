@@ -40,9 +40,9 @@ export default {
     title: 'WERK',
   },
   project: {
-    back: '← Terug naar werk',
-    prev: '← Vorig werk',
-    next: 'Volgend werk →',
+    back: '← Terug',
+    prev: '← Vorige',
+    next: 'Volgende →',
     not_found: 'Project niet gevonden',
   },
   projects: {

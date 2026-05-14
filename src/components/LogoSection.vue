@@ -1,13 +1,14 @@
 <script setup>
-
+import { useI18n } from 'vue-i18n'
+const { t } = useI18n()
 </script>
 
 <template>
   <section>
-    <h3>FRONT END DEVELOPER</h3>
-    <h3>GRAPHIC DESIGNER</h3>
+    <h3>{{ t('logo.frontend') }}</h3>
+    <h3>{{ t('logo.graphic') }}</h3>
     <img src="@/assets/img/logo.svg" alt="gielboogaertsstudio logo"/>
-    <h3 class="right">BOOK DESIGNER</h3>
+    <h3 class="right">{{ t('logo.book') }}</h3>
   </section>
 </template>
 

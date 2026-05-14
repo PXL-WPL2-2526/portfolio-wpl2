@@ -7,13 +7,13 @@
     "description": "Publication for navigating between poster and booklet",
     "year": "2022",
     "content": [
-      { "type": "image", "src": "/work/microtype/MT_booklet&poster1.webp", "position": "first" },
-      { "type": "image", "src": "/work/microtype/MT_cover.webp", "position": "second" },
-      { "type": "text", "value": "Based on artikel \"Had de koning schoenmaat 49?\" by Martin Majoor", "italic": "Had de koning schoenmaat 49?" },
-      { "type": "image", "src": "/work/microtype/MT_spread1.webp", "position": "third" },
-      { "type": "image", "src": "/work/microtype/MT_booklet&poster2.webp", "position": "fourth" },
-      { "type": "image", "src": "/work/microtype/MT_poster.webp", "position": "fifth" },
-      { "type": "image", "src": "/work/microtype/MT_spread2.webp", "position": "second" }
+      { "type": "image", "src": "/work/microtype/MT_booklet&poster1.webp", "position": "first", "alt": "Microtype booklet and poster side by side", "altKey": "microtype_img1" },
+      { "type": "image", "src": "/work/microtype/MT_cover.webp", "position": "second", "alt": "Microtype booklet cover", "altKey": "microtype_img2" },
+      { "type": "text", "value": "Based on artikel \"Had de koning schoenmaat 49?\" by Martin Majoor", "italic": "Had de koning schoenmaat 49?", "key": "microtype_source" },
+      { "type": "image", "src": "/work/microtype/MT_spread1.webp", "position": "third", "alt": "Microtype inner spread", "altKey": "microtype_img3" },
+      { "type": "image", "src": "/work/microtype/MT_booklet&poster2.webp", "position": "fourth", "alt": "Microtype booklet and poster detail", "altKey": "microtype_img4" },
+      { "type": "image", "src": "/work/microtype/MT_poster.webp", "position": "fifth", "alt": "Microtype poster", "altKey": "microtype_img5" },
+      { "type": "image", "src": "/work/microtype/MT_spread2.webp", "position": "second", "alt": "Microtype second inner spread", "altKey": "microtype_img6" }
     ]
   },
   {
@@ -24,15 +24,15 @@
     "description": "Bachelor project on visualizing dyslexia",
     "year": "2024",
     "content": [
-      { "type": "image", "src": "/work/jumbledscript/JS_spread1.webp", "position": "first" },
-      { "type": "image", "src": "/work/jumbledscript/JS_cover.webp", "position": "second" },
-      { "type": "image", "src": "/work/jumbledscript/JS_poster1.webp", "position": "third" },
-      { "type": "text", "value": "Book & posters" },
-      { "type": "image", "src": "/work/jumbledscript/JS_explanation.webp", "position": "fourth" },
-      { "type": "image", "src": "/work/jumbledscript/JS_spread3.webp", "position": "fifth" },
-      { "type": "image", "src": "/work/jumbledscript/JS_poster2.webp", "position": "second" },
-      { "type": "image", "src": "/work/jumbledscript/JS_index.webp", "position": "fourth" },
-      { "type": "image", "src": "/work/jumbledscript/JS_poster3.webp", "position": "fifth" }
+      { "type": "image", "src": "/work/jumbledscript/JS_spread1.webp", "position": "first", "alt": "Jumbled Script book spread", "altKey": "jumbledscript_img1" },
+      { "type": "image", "src": "/work/jumbledscript/JS_cover.webp", "position": "second", "alt": "Jumbled Script book cover", "altKey": "jumbledscript_img2" },
+      { "type": "image", "src": "/work/jumbledscript/JS_poster1.webp", "position": "third", "alt": "Jumbled Script first poster", "altKey": "jumbledscript_img3" },
+      { "type": "text", "value": "Book & posters", "key": "bookAndPosters" },
+      { "type": "image", "src": "/work/jumbledscript/JS_explanation.webp", "position": "fourth", "alt": "Jumbled Script explanation page", "altKey": "jumbledscript_img4" },
+      { "type": "image", "src": "/work/jumbledscript/JS_spread3.webp", "position": "fifth", "alt": "Jumbled Script third book spread", "altKey": "jumbledscript_img5" },
+      { "type": "image", "src": "/work/jumbledscript/JS_poster2.webp", "position": "second", "alt": "Jumbled Script second poster", "altKey": "jumbledscript_img6" },
+      { "type": "image", "src": "/work/jumbledscript/JS_index.webp", "position": "fourth", "alt": "Jumbled Script index page", "altKey": "jumbledscript_img7" },
+      { "type": "image", "src": "/work/jumbledscript/JS_poster3.webp", "position": "fifth", "alt": "Jumbled Script third poster", "altKey": "jumbledscript_img8" }
     ]
   },
   {
@@ -44,20 +44,20 @@
     "year": "2025",
     "downloadPdf": { "href": "/EOPA_thesis_GielBoogaerts.pdf", "label": "Download thesis" },
     "content": [
-      { "type": "image", "src": "/work/eopa/EOPA_cover.webp", "position": "first" },
-      { "type": "image", "src": "/work/eopa/EOPA_content.webp", "position": "second" },
-      { "type": "text", "value": "3700+ graphemes & 51 phonetic alphabets" },
-      { "type": "image", "src": "/work/eopa/EOPA_spread1.webp", "position": "third" },
-      { "type": "image", "src": "/work/eopa/EOPA_spread2.webp", "position": "fourth" },
-      { "type": "image", "src": "/work/eopa/EOPA_spread3.webp", "position": "fifth" },
-      { "type": "text", "value": "Triple book series" },
-      { "type": "image", "src": "/work/eopa/COC_cover.webp", "position": "second" },
-      { "type": "image", "src": "/work/eopa/COC_content.webp", "position": "first" },
-      { "type": "image", "src": "/work/eopa/COC_spread.webp", "position": "fourth" },
-      { "type": "text", "value": "Encyclopedia & catalogues" },
-      { "type": "image", "src": "/work/eopa/COV_cover.webp", "position": "third" },
-      { "type": "image", "src": "/work/eopa/COV_content.webp", "position": "fifth" },
-      { "type": "image", "src": "/work/eopa/COV_spread.webp", "position": "fourth" }
+      { "type": "image", "src": "/work/eopa/EOPA_cover.webp", "position": "first", "alt": "Encyclopedia of Phonetic Alphabets cover", "altKey": "eopa_img1" },
+      { "type": "image", "src": "/work/eopa/EOPA_content.webp", "position": "second", "alt": "Encyclopedia of Phonetic Alphabets content page", "altKey": "eopa_img2" },
+      { "type": "text", "value": "3700+ graphemes & 51 phonetic alphabets", "key": "eopa_graphemes" },
+      { "type": "image", "src": "/work/eopa/EOPA_spread1.webp", "position": "third", "alt": "Encyclopedia of Phonetic Alphabets first spread", "altKey": "eopa_img3" },
+      { "type": "image", "src": "/work/eopa/EOPA_spread2.webp", "position": "fourth", "alt": "Encyclopedia of Phonetic Alphabets second spread", "altKey": "eopa_img4" },
+      { "type": "image", "src": "/work/eopa/EOPA_spread3.webp", "position": "fifth", "alt": "Encyclopedia of Phonetic Alphabets third spread", "altKey": "eopa_img5" },
+      { "type": "text", "value": "Triple book series", "key": "tripleBookSeries" },
+      { "type": "image", "src": "/work/eopa/COC_cover.webp", "position": "second", "alt": "Catalogue of Characters cover", "altKey": "eopa_img6" },
+      { "type": "image", "src": "/work/eopa/COC_content.webp", "position": "first", "alt": "Catalogue of Characters content page", "altKey": "eopa_img7" },
+      { "type": "image", "src": "/work/eopa/COC_spread.webp", "position": "fourth", "alt": "Catalogue of Characters spread", "altKey": "eopa_img8" },
+      { "type": "text", "value": "Encyclopedia & catalogues", "key": "encyclopediaAndCatalogues" },
+      { "type": "image", "src": "/work/eopa/COV_cover.webp", "position": "third", "alt": "Catalogue of Voices cover", "altKey": "eopa_img9" },
+      { "type": "image", "src": "/work/eopa/COV_content.webp", "position": "fifth", "alt": "Catalogue of Voices content page", "altKey": "eopa_img10" },
+      { "type": "image", "src": "/work/eopa/COV_spread.webp", "position": "fourth", "alt": "Catalogue of Voices spread", "altKey": "eopa_img11" }
     ]
   },
   {
@@ -68,15 +68,15 @@
     "description": "Publication for navigating between content table, body and image & keyword index",
     "year": "2024",
     "content": [
-      { "type": "image", "src": "/work/typeinterplay/TIP_spread01.webp", "position": "first" },
-      { "type": "image", "src": "/work/typeinterplay/TIP_cover.webp", "position": "second" },
-      { "type": "text", "value": "Based on cursus \"Letterzetten, Chapter 17\"", "italic": "Letterzetten, Chapter 17" },
-      { "type": "image", "src": "/work/typeinterplay/TIP_content.webp", "position": "third" },
-      { "type": "image", "src": "/work/typeinterplay/TIP_titlepage.webp", "position": "fourth" },
-      { "type": "text", "value": "Navigation on the outside of the book" },
-      { "type": "image", "src": "/work/typeinterplay/TIP_keywords.webp", "position": "fifth" },
-      { "type": "image", "src": "/work/typeinterplay/TIP_spread03.webp", "position": "second" },
-      { "type": "image", "src": "/work/typeinterplay/TIP_images.webp", "position": "fourth" }
+      { "type": "image", "src": "/work/typeinterplay/TIP_spread01.webp", "position": "first", "alt": "Type-Interplay first spread", "altKey": "typeinterplay_img1" },
+      { "type": "image", "src": "/work/typeinterplay/TIP_cover.webp", "position": "second", "alt": "Type-Interplay cover", "altKey": "typeinterplay_img2" },
+      { "type": "text", "value": "Based on cursus \"Letterzetten, Chapter 17\"", "italic": "Letterzetten, Chapter 17", "key": "typeinterplay_source" },
+      { "type": "image", "src": "/work/typeinterplay/TIP_content.webp", "position": "third", "alt": "Type-Interplay content page", "altKey": "typeinterplay_img3" },
+      { "type": "image", "src": "/work/typeinterplay/TIP_titlepage.webp", "position": "fourth", "alt": "Type-Interplay title page", "altKey": "typeinterplay_img4" },
+      { "type": "text", "value": "Navigation on the outside of the book", "key": "navigationOutside" },
+      { "type": "image", "src": "/work/typeinterplay/TIP_keywords.webp", "position": "fifth", "alt": "Type-Interplay keyword index on book edge", "altKey": "typeinterplay_img5" },
+      { "type": "image", "src": "/work/typeinterplay/TIP_spread03.webp", "position": "second", "alt": "Type-Interplay third spread", "altKey": "typeinterplay_img6" },
+      { "type": "image", "src": "/work/typeinterplay/TIP_images.webp", "position": "fourth", "alt": "Type-Interplay image index", "altKey": "typeinterplay_img7" }
     ]
   },
   {
@@ -87,13 +87,13 @@
     "description": "Publication for the 7-yearly Virgin Jessa Festivities in Hasselt",
     "year": "2024",
     "content": [
-      { "type": "image", "src": "/work/virgajesse/VG_hommages_spread1.webp", "position": "first" },
-      { "type": "image", "src": "/work/virgajesse/VG_hommages.webp", "position": "second" },
-      { "type": "text", "value": "Group project" },
-      { "type": "image", "src": "/work/virgajesse/VG_poster.webp", "position": "third" },
-      { "type": "text", "value": "Poster, magazine / booklet & addendum" },
-      { "type": "image", "src": "/work/virgajesse/VG_publicatie.webp", "position": "fourth" },
-      { "type": "image", "src": "/work/virgajesse/VG_hommages_spread2.webp", "position": "fifth" }
+      { "type": "image", "src": "/work/virgajesse/VG_hommages_spread1.webp", "position": "first", "alt": "Virga Jesse hommages first spread", "altKey": "virgajesse_img1" },
+      { "type": "image", "src": "/work/virgajesse/VG_hommages.webp", "position": "second", "alt": "Virga Jesse hommages booklet", "altKey": "virgajesse_img2" },
+      { "type": "text", "value": "Group project", "key": "groupProject" },
+      { "type": "image", "src": "/work/virgajesse/VG_poster.webp", "position": "third", "alt": "Virga Jesse poster", "altKey": "virgajesse_img3" },
+      { "type": "text", "value": "Poster, magazine / booklet & addendum", "key": "posterMagazineAddendum" },
+      { "type": "image", "src": "/work/virgajesse/VG_publicatie.webp", "position": "fourth", "alt": "Virga Jesse full publication set", "altKey": "virgajesse_img4" },
+      { "type": "image", "src": "/work/virgajesse/VG_hommages_spread2.webp", "position": "fifth", "alt": "Virga Jesse hommages second spread", "altKey": "virgajesse_img5" }
     ]
   },
   {
@@ -104,11 +104,11 @@
     "description": "Triple poster series for the Enzo Mari exhibition in C-Mine Genk",
     "year": "2022",
     "content": [
-      { "type": "image", "src": "/work/enzomari/EM_poster2.webp", "position": "first" },
-      { "type": "image", "src": "/work/enzomari/EM_poster1.webp", "position": "second" },
-      { "type": "text", "value": "With an invite" },
-      { "type": "image", "src": "/work/enzomari/EM_invite.webp", "position": "third" },
-      { "type": "image", "src": "/work/enzomari/EM_poster&invite.webp", "position": "fourth" }
+      { "type": "image", "src": "/work/enzomari/EM_poster2.webp", "position": "first", "alt": "Enzo Mari second poster", "altKey": "enzomari_img1" },
+      { "type": "image", "src": "/work/enzomari/EM_poster1.webp", "position": "second", "alt": "Enzo Mari first poster", "altKey": "enzomari_img2" },
+      { "type": "text", "value": "With an invite", "key": "withAnInvite" },
+      { "type": "image", "src": "/work/enzomari/EM_invite.webp", "position": "third", "alt": "Enzo Mari exhibition invite", "altKey": "enzomari_img3" },
+      { "type": "image", "src": "/work/enzomari/EM_poster&invite.webp", "position": "fourth", "alt": "Enzo Mari poster and invite together", "altKey": "enzomari_img4" }
     ]
   },
   {
@@ -119,9 +119,9 @@
     "description": "Booklet for cataloging textual information",
     "year": "2022",
     "content": [
-      { "type": "image", "src": "/work/archetype/ARCH_spread2.webp", "position": "first" },
-      { "type": "image", "src": "/work/archetype/ARCH_cover.webp", "position": "second" },
-      { "type": "image", "src": "/work/archetype/ARCH_spread1.webp", "position": "third" }
+      { "type": "image", "src": "/work/archetype/ARCH_spread2.webp", "position": "first", "alt": "Archetype second spread", "altKey": "archetype_img1" },
+      { "type": "image", "src": "/work/archetype/ARCH_cover.webp", "position": "second", "alt": "Archetype cover", "altKey": "archetype_img2" },
+      { "type": "image", "src": "/work/archetype/ARCH_spread1.webp", "position": "third", "alt": "Archetype first spread", "altKey": "archetype_img3" }
     ]
   },
   {
@@ -133,15 +133,15 @@
     "year": "2026",
     "link": { "href": "https://phoneticalphabetarchive.netlify.app", "label": "Go to website" },
     "content": [
-      { "type": "image", "src": "/work/phoneticalphabet/PAA_homepage1.webp", "position": "first" },
-      { "type": "image", "src": "/work/phoneticalphabet/PAA_homepage2.webp", "position": "second" },
-      { "type": "text", "value": "Archive of phonetic alphabets" },
-      { "type": "image", "src": "/work/phoneticalphabet/PAA_detailpage1.webp", "position": "third" },
-      { "type": "image", "src": "/work/phoneticalphabet/PAA_detailpage2.webp", "position": "fourth" },
-      { "type": "text", "value": "Full character sets" },
-      { "type": "image", "src": "/work/phoneticalphabet/PAA_detailpage3.webp", "position": "fifth" },
-      { "type": "image", "src": "/work/phoneticalphabet/PAA_detailpage4.webp", "position": "first" },
-      { "type": "text", "value": "*Under development*" }
+      { "type": "image", "src": "/work/phoneticalphabet/PAA_homepage1.webp", "position": "first", "alt": "Phonetic Alphabet Archive homepage", "altKey": "phoneticalphabet_img1" },
+      { "type": "image", "src": "/work/phoneticalphabet/PAA_homepage2.webp", "position": "second", "alt": "Phonetic Alphabet Archive homepage detail", "altKey": "phoneticalphabet_img2" },
+      { "type": "text", "value": "Archive of phonetic alphabets", "key": "archiveOfPhoneticAlphabets" },
+      { "type": "image", "src": "/work/phoneticalphabet/PAA_detailpage1.webp", "position": "third", "alt": "Phonetic Alphabet Archive detail page", "altKey": "phoneticalphabet_img3" },
+      { "type": "image", "src": "/work/phoneticalphabet/PAA_detailpage2.webp", "position": "fourth", "alt": "Phonetic Alphabet Archive character overview", "altKey": "phoneticalphabet_img4" },
+      { "type": "text", "value": "Full character sets", "key": "fullCharacterSets" },
+      { "type": "image", "src": "/work/phoneticalphabet/PAA_detailpage3.webp", "position": "fifth", "alt": "Phonetic Alphabet Archive character detail", "altKey": "phoneticalphabet_img5" },
+      { "type": "image", "src": "/work/phoneticalphabet/PAA_detailpage4.webp", "position": "first", "alt": "Phonetic Alphabet Archive additional detail", "altKey": "phoneticalphabet_img6" },
+      { "type": "text", "value": "*Under development*", "key": "underDevelopment" }
     ]
   }
 ]

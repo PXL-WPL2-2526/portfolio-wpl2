@@ -1,5 +1,9 @@
 <script setup>
-  defineProps({
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
+
+defineProps({
   project: Object,
   prev: Object,
   next: Object
@@ -18,14 +22,14 @@
 
     <!-- BACK -->
     <RouterLink class="back" to="/work">
-      <span>← Back to work</span>
+      <span>{{ t('project.back') }}</span>
     </RouterLink>
 
     <!-- CONTENT -->
     <section>
 
-      <!-- DESCRIPTION FIRST -->
-      <p>{{ project.description }}</p>
+      <!-- DESCRIPTION (translated) -->
+      <p>{{ t(`projects.${project.id}.description`) }}</p>
 
       <!-- DYNAMIC CONTENT -->
       <template v-for="(block, index) in project.content" :key="index">
@@ -35,10 +39,10 @@
             v-if="block.type === 'image'"
             :src="block.src"
             :class="block.position"
-            alt=""
+            :alt="block.altKey ? t(`alts.${block.altKey}`) : (block.alt || '')"
         />
 
-        <!-- TEXT -->
+        <!-- TEXT (kept from JSON as-is — these are captions, not UI text) -->
         <p v-else-if="block.type === 'text'">
           {{ block.value }}
         </p>
@@ -48,24 +52,24 @@
       <!-- YEAR LAST -->
       <p>{{ project.year }}</p>
 
-      <!-- OPTIONAL DOWNLOAD (placed logically at end) -->
+      <!-- OPTIONAL DOWNLOAD -->
       <a
           v-if="project.downloadPdf"
           :href="project.downloadPdf.href"
           target="_blank"
           class="link"
       >
-        {{ project.downloadPdf.label }}
+        {{ t(`projects.${project.id}.downloadLabel`) }}
       </a>
 
-      <!-- OPTIONAL LINK (placed logically at end) -->
+      <!-- OPTIONAL LINK -->
       <a
           v-if="project.link"
           :href="project.link.href"
           target="_blank"
           class="link"
       >
-        {{ project.link.label }}
+        {{ t(`projects.${project.id}.linkLabel`) }}
       </a>
 
     </section>
@@ -75,21 +79,21 @@
           v-if="prev"
           :to="`/projects/${prev.id}`"
       >
-        ← Previous work
+        {{ t('project.prev') }}
       </RouterLink>
 
       <RouterLink
           v-if="next"
           :to="`/projects/${next.id}`"
       >
-        Next work →
+        {{ t('project.next') }}
       </RouterLink>
     </div>
 
   </main>
 
   <div v-else>
-    Project not found
+    {{ t('project.not_found') }}
   </div>
 </template>
 
@@ -187,6 +191,4 @@ img {
     margin-bottom: 0;
   }
 }
-
-
 </style>

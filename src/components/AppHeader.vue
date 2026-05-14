@@ -1,23 +1,43 @@
 <script setup>
 import { ref } from 'vue'
+import { useI18n } from "vue-i18n";
 
 const menuOpen = ref(false)
+const langOpen = ref(false)
+const { locale, t } = useI18n()
+
+function setLang(lang) {
+  locale.value = lang
+  localStorage.setItem('locale', lang)
+  langOpen.value = false
+}
 </script>
 
 <template>
   <header>
     <button class="menu-btn" @click="menuOpen = !menuOpen" :class="{ open: menuOpen }">
-      <span>{{ menuOpen ? 'CLOSE' : 'MENU' }}</span>
+      <span>{{ menuOpen ? t('nav.close') : t('nav.menu') }}</span>
     </button>
 
     <Transition name="overlay">
       <div class="overlay" v-if="menuOpen">
         <nav>
-          <RouterLink :to="{ name: 'home' }" @click="menuOpen = false">HOME</RouterLink>
-          <RouterLink :to="{ name: 'work' }" @click="menuOpen = false">WORK</RouterLink>
-          <RouterLink :to="{ name: 'about' }" @click="menuOpen = false">ABOUT</RouterLink>
+          <RouterLink :to="{ name: 'home' }" @click="menuOpen = false">{{ t('nav.home') }}</RouterLink>
+          <RouterLink :to="{ name: 'work' }" @click="menuOpen = false">{{ t('nav.work') }}</RouterLink>
+          <RouterLink :to="{ name: 'about' }" @click="menuOpen = false">{{ t('nav.about') }}</RouterLink>
         </nav>
-        <img src="@/assets/img/logo.svg" alt="gielboogaertsstudio logo">
+
+        <div class="lang-wrapper">
+          <button class="lang-btn" @click="langOpen = !langOpen">
+            {{ locale.toUpperCase() }}
+          </button>
+          <Transition name="popup">
+            <div class="lang-popup" v-if="langOpen">
+              <button v-if="locale !== 'en'" @click="setLang('en')">EN</button>
+              <button v-if="locale !== 'nl'" @click="setLang('nl')">NL</button>
+            </div>
+          </Transition>
+        </div>
       </div>
     </Transition>
   </header>
@@ -63,19 +83,60 @@ nav a {
   justify-content: space-between;
 }
 
-.overlay img {
-  width: 20vw;
-  margin-right: 1rem;
-  margin-bottom: 1rem;
-  align-self: flex-end;
-}
-
 nav {
   margin-bottom: 2rem;
   margin-left: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.lang-wrapper {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  align-self: flex-end;
+  position: relative;
+}
+
+.lang-btn {
+  background: none;
+  border: none;
+  font: var(--headline);
+  cursor: pointer;
+}
+
+.lang-popup {
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 0.5rem;
+}
+
+.lang-popup button {
+  background: none;
+  border: none;
+  font: var(--headline);
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+.lang-popup button.active {
+  opacity: 1;
+}
+
+/* Popup transition */
+.popup-enter-active,
+.popup-leave-active {
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.popup-enter-from,
+.popup-leave-to {
+  opacity: 0;
+  transform: translateY(6px);
 }
 
 /* Overlay transition */

@@ -1,5 +1,8 @@
 <script setup>
 import { onMounted, onUnmounted, useTemplateRef } from 'vue'
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
 
 const textEl = useTemplateRef('text')
 
@@ -36,16 +39,15 @@ onUnmounted(() => {
     <div class="links">
       <div class="filler"></div>
       <div>
-        <p>Contact me:</p>
-        <a href="mailto:boogaertsgiel@gmail.com">boogaertsgiel@gmail.com</a>
-        <p class="name">Giel Boogaerts</p>
+        <p class="name">{{ t('footer.contact') }}</p>
+        <a href="mailto:info@gielboogaerts.com">info@gielboogaerts.com</a>
       </div>
       <div>
         <a href="https://www.instagram.com/gielboogaerts.studio/" target="_blank">Instagram</a>
         <a href="https://www.linkedin.com/in/giel-boogaerts-581b96224/" target="_blank">LinkedIn</a>
       </div>
       <div class="privacyPolicy">
-        <a href="/privacyPolicy.pdf" download>Privacy policy</a>
+        <a href="/privacyPolicy.pdf" download>{{ t('footer.privacy') }}</a>
       </div>
       <div class="filler"></div>
     </div>
@@ -84,7 +86,6 @@ footer {
 }
 
 @media screen and (max-width: 1100px) {
-
   .links div {
     width: calc(33.333% - 0.666rem);
   }

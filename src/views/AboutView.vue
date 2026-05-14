@@ -1,31 +1,26 @@
 <script setup>
-
+import { useI18n } from 'vue-i18n'
+const { t } = useI18n()
 </script>
 
 <template>
   <main>
-    <h1>ABOUT</h1>
+    <h1>{{ t('about.title') }}</h1>
     <section>
-      <p>I AM GIEL BOOGAERTS,
-        A 23-YEAR OLD GRAPHIC DESIGNER CURRENTLY STUDYING DIGITAL DESIGN.</p>
-      <p>MY AIM IS TO STAND OUT THROUGH ORIGINALITY & CONCEPT AND I BELIEVE AESTHETICS SHOULD BE FUNCTIONALITY-DRIVEN, GIVING EACH PROJECT A DEEPER SENSE OF MEANING.</p>
-      <p>I GRADUATED WITH HONORS IN THE <span>INTERNATIONAL MASTER OF READING TYPE & TYPOGRAPHY</span> AT PXL-MAD HASSELT UNDER GUIDANCE OF PROF. DR. ANN BESSEMANS AND AM CURRENTLY FOLLOWING <span>DIGITAL DESIGN</span> AT PXL DIGITAL HASSELT AND <span>BOOK & TYPE</span> AT THE PLANTIN-MORETUS MUSEUM ANTWERP.</p>
-      <p>KEY WORDS: <br>
-        <span>
-        DUTCH DESIGN, MODERN,
-        CONCEPT-DRIVEN, SYSTEM, SWISS STYLE, TOTAL DESIGN
-        </span>
+      <p>{{ t('about.p1') }}</p>
+      <p>{{ t('about.p2') }}</p>
+      <p>
+        {{ t('about.p3_pre') }}<span>{{ t('about.p3_master') }}</span>{{ t('about.p3_mid') }}<span>{{ t('about.p3_digital') }}</span>{{ t('about.p3_mid2') }}<span>{{ t('about.p3_book') }}</span>{{ t('about.p3_end') }}
+      </p>
+      <p>{{ t('about.keywords_label') }}<br>
+        <span>{{ t('about.keywords') }}</span>
       </p>
       <p class="quote">
-        “CONTENT PRECEDES DESIGN. DESIGN IN THE ABSENCE OF CONTENT IS NOT DESIGN, IT’S DECORATION.”
-        <span class="quotePerson">
-        Jefrrey Zeldman
-      </span>
+        {{ t('about.quote') }}
+        <span class="quotePerson">{{ t('about.quote_person') }}</span>
       </p>
-
     </section>
   </main>
-
 </template>
 
 <style scoped>
@@ -68,5 +63,4 @@ span {
   font: var(--header-3);
   font-weight: 400;
 }
-
 </style>

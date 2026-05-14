@@ -4,6 +4,18 @@ import AppHeader from "@/components/AppHeader.vue";
 import AppFooter from "@/components/AppFooter.vue";
 import AppTag from "@/components/AppTag.vue";
 import AppLoader from "@/components/AppLoader.vue";
+import { computed } from "vue";
+import { useI18n } from "vue-i18n";
+import { useHead } from '@unhead/vue'
+
+
+const { locale } = useI18n()
+
+useHead({
+  htmlAttrs: {
+    lang: computed(() => locale.value),
+  },
+})
 </script>
 
 <template>

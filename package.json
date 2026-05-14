@@ -13,8 +13,10 @@
     "format": "prettier --write --experimental-cli src/"
   },
   "dependencies": {
+    "@unhead/vue": "^3.1.0",
     "node-fetch": "^3.3.2",
     "vue": "^3.5.29",
+    "vue-i18n": "^11.4.2",
     "vue-router": "^5.0.3"
   },
   "devDependencies": {

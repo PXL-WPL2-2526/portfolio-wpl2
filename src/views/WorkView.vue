@@ -1,5 +1,8 @@
 <script setup>
+import { useI18n } from 'vue-i18n'
 import projects from '@/projects/projects.json'
+
+const { t } = useI18n()
 
 const projectMap = Object.fromEntries(
     projects.map(p => [p.id, p])
@@ -8,7 +11,7 @@ const projectMap = Object.fromEntries(
 
 <template>
   <main>
-    <h1>WORK</h1>
+    <h1>{{ t('work.title') }}</h1>
 
     <section>
       <div class="first">
@@ -225,5 +228,4 @@ section {
     left: 0;
   }
 }
-
 </style>

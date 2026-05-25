@@ -72,6 +72,17 @@ defineProps({
         {{ t(`projects.${project.id}.linkLabel`) }}
       </a>
 
+      <a
+          v-if="project.git"
+          :href="project.git.href"
+          target="_blank"
+          class="link"
+          id="github"
+      >
+        {{ t(`projects.${project.id}.gitLabel`) }}
+      </a>
+
+
     </section>
 
     <div class="rotation">

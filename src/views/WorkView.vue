@@ -87,6 +87,25 @@ const projectMap = Object.fromEntries(
           </div>
         </RouterLink>
       </div>
+
+      <div class="third">
+        <RouterLink :to="`/projects/${projectMap.immohabits.id}`">
+          <img :src="projectMap.immohabits.cover" />
+          <div class="text">
+            <span>{{ projectMap.immohabits.title }}</span>
+            <span>{{ projectMap.immohabits.year }}</span>
+          </div>
+        </RouterLink>
+
+
+        <RouterLink :to="`/projects/${projectMap.plantinpress.id}`">
+          <img :src="projectMap.plantinpress.cover" />
+          <div class="text">
+            <span>{{ projectMap.plantinpress.title }}</span>
+            <span>{{ projectMap.plantinpress.year }}</span>
+          </div>
+        </RouterLink>
+      </div>
     </section>
   </main>
 </template>

@@ -8,10 +8,14 @@ const { t } = useI18n()
     <h1>{{ t('about.title') }}</h1>
     <section>
       <p>{{ t('about.p1') }}</p>
+
+      <img src="/photo.jpg" alt="">
+      
       <p>{{ t('about.p2') }}</p>
       <p>
         {{ t('about.p3_pre') }}<span>{{ t('about.p3_master') }}</span>{{ t('about.p3_mid') }}<span>{{ t('about.p3_digital') }}</span>{{ t('about.p3_mid2') }}<span>{{ t('about.p3_book') }}</span>{{ t('about.p3_end') }}
       </p>
+
       <p>{{ t('about.keywords_label') }}<br>
         <span>{{ t('about.keywords') }}</span>
       </p>
@@ -62,5 +66,10 @@ span {
   color: var(--primary-color);
   font: var(--header-3);
   font-weight: 400;
+}
+
+img {
+  width: 25%;
+  max-width: 300px;
 }
 </style>

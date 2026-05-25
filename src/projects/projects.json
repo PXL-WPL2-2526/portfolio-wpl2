@@ -76,7 +76,7 @@
       { "type": "text", "value": "Navigation on the outside of the book", "key": "navigationOutside" },
       { "type": "image", "src": "/work/typeinterplay/TIP_keywords.webp", "position": "fifth", "alt": "Type-Interplay keyword index on book edge", "altKey": "typeinterplay_img5" },
       { "type": "image", "src": "/work/typeinterplay/TIP_spread03.webp", "position": "second", "alt": "Type-Interplay third spread", "altKey": "typeinterplay_img6" },
-      { "type": "image", "src": "/work/typeinterplay/TIP_images.webp", "position": "fourth", "alt": "Type-Interplay image index", "altKey": "typeinterplay_img7" }
+      { "type": "image", "src": "/work/typeinterplay/TIP_work.webp", "position": "fourth", "alt": "Type-Interplay image index", "altKey": "typeinterplay_img7" }
     ]
   },
   {
@@ -142,6 +142,38 @@
       { "type": "image", "src": "/work/phoneticalphabet/PAA_detailpage3.webp", "position": "fifth", "alt": "Phonetic Alphabet Archive character detail", "altKey": "phoneticalphabet_img5" },
       { "type": "image", "src": "/work/phoneticalphabet/PAA_detailpage4.webp", "position": "first", "alt": "Phonetic Alphabet Archive additional detail", "altKey": "phoneticalphabet_img6" },
       { "type": "text", "value": "*Under development*", "key": "underDevelopment" }
+    ]
+  },
+  {
+    "id": "immohabits",
+    "title": "IMMOHABITS",
+    "cover": "/work/immohabits/home_1.webp",
+    "titleLines": ["IMMOHABITS"],
+    "description": "Rebranding of ImmoHabits, an AI-tool for automating the generation of estate description for realtors. It is a product of AccelerateHabits which specializes in AI-products",
+    "year": "2026",
+    "content": [
+      { "type": "image", "src": "/work/immohabits/home_1.webp", "position": "first", "alt": "Immohabits homepage", "altKey": "immohabits_img1" },
+      { "type": "text", "value": "Interdisciplinary group project", "key": "immohabitsGroup" },
+      { "type": "image", "src": "/work/immohabits/home_2.webp", "position": "second", "alt": "Immohabits homepage", "altKey": "immohabits_img2" },
+      { "type": "text", "value": "Interdisciplinary group project", "key": "immohabitsGroup2" },
+      { "type": "image", "src": "/work/immohabits/home_3.webp", "position": "third", "alt": "Immohabits homepage", "altKey": "immohabits_img3" },
+      { "type": "text", "value": "Fully functional website & dashboard", "key": "immohabitsEndProduct" },
+      { "type": "image", "src": "/work/immohabits/login.webp", "position": "fourth", "alt": "Immohabits loginpage", "altKey": "immohabits_img4" },
+      { "type": "text", "value": "Fully functional website & dashboard", "key": "immohabitsEndProduct2" }
+    ]
+  },
+  {
+    "id": "plantinpress",
+    "title": "PLANTIN MAGAZINE",
+    "cover": "/work/plantinpress/plantinpress_cover.webp",
+    "titleLines": ["PLANTIN MAGAZINE"],
+    "description": "Imaginary magazine for Plantin Institute",
+    "year": "2026",
+    "content": [
+      { "type": "image", "src": "/work/plantinpress/plantinpress_cover.webp", "position": "first", "alt": "Plantin Press cover", "altKey": "plantinpress_img1" },
+      { "type": "image", "src": "/work/plantinpress/plantinpress_spread.webp", "position": "second", "alt": "Plantin Press spread", "altKey": "plantinpress_img2" },
+      { "type": "text", "value": "Monthly magazine", "key": "magazineOfPlantin" },
+      { "type": "image", "src": "/work/plantinpress/plantinpress_page.webp", "position": "third", "alt": "Plantin Press halfopen magazine", "altKey": "plantinpress_img3" }
     ]
   }
 ]

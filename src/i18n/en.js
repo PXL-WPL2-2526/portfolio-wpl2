@@ -71,6 +71,13 @@ export default {
     phoneticalphabet: {
       description: 'Digitalization of EOPA',
       linkLabel: 'Go to website',
+      gitLabel: 'Go to repository'
+    },
+    immohabits: {
+      description: 'Rebranding of ImmoHabits, an AI-tool for automating the generation of estate description for realtors. It is a product of AccelerateHabits which specializes in AI-products',
+    },
+    plantinpress: {
+      description: 'Imaginary magazine for Plantin Institute',
     },
   },
   alts: {
@@ -124,6 +131,13 @@ export default {
     phoneticalphabet_img4: 'Phonetic Alphabet Archive character overview',
     phoneticalphabet_img5: 'Phonetic Alphabet Archive character detail',
     phoneticalphabet_img6: 'Phonetic Alphabet Archive additional detail',
+    immohabits_img1: 'Immohabits homepage',
+    immohabits_img2: 'Immohabits homepage',
+    immohabits_img3: 'Immohabits homepage',
+    immohabits_img4: 'Immohabits loginpage',
+    plantinpress_img1: 'Plantin Press cover',
+    plantinpress_img2: 'Plantin Press spread',
+    plantinpress_img3: 'Plantin Press halfopen magazine',
   },
   captions: {
     microtype_source: 'Based on article "Had de koning schoenmaat 49?" by Martin Majoor',
@@ -139,5 +153,10 @@ export default {
     archiveOfPhoneticAlphabets: 'Archive of phonetic alphabets',
     fullCharacterSets: 'Full character sets',
     underDevelopment: '*Under development*',
+    immohabitsGroup: 'This project was created during the course "Werkplekleren 2", where we worked together in an interdisciplinary team on a real-life assignment for Immohabits. The goal of the project was to create a complete rebranding and develop a modern website that matched the company’s new identity. Over the course of 14 weeks, we worked in a professional way similar to how projects are handled in the work field. Each team member had their own role, which allowed us to collaborate closely between design, development, and project management.',
+    immohabitsGroup2:'During the project, we regularly communicated with the client to discuss feedback, progress, and improvements. This helped us better understand how client communication and teamwork are important within a real development process. Together, we focused on building a functional and user-friendly website that reflected the wishes of the client. The experience gave me valuable insight into working within a multidisciplinary team, handling deadlines, and contributing to a larger project from start to finish. In the end, we successfully delivered a fully functional website that combined both design and technical functionality in a professional way.',
+    immohabitsEndProduct: 'For this project, I worked as the sole front-end developer and was responsible for building the complete user interface of the website. I received the designs from the design team and translated them into a functional web application using Vue.js. Throughout the development process, I worked together with the backend developers to integrate the APIs and connect the front-end with the backend systems. The final website consists of five pages, including a login system and a dashboard where users can view their personal information.',
+    immohabitsEndProduct2: 'One of my main focuses was making sure the website was responsive and easy to use on different screen sizes. Besides implementing the designs, I also paid attention to clean code structure and smooth navigation throughout the application. Because I handled the entire front-end development independently, this project helped me improve both my technical and problem-solving skills. It also gave me more experience in collaborating with designers and backend developers within a larger team project. By the end of the project, we delivered a complete and modern website that met the client’s requirements and provided a user-friendly experience.',
+    magazineOfPlantin: 'Monthly magazine',
   },
 }

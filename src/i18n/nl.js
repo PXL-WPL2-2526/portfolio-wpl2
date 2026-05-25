@@ -71,6 +71,13 @@ export default {
     phoneticalphabet: {
       description: 'Digitalisering van EOPA',
       linkLabel: 'Naar de website',
+      gitLabel: 'Naar de repository'
+    },
+    immohabits: {
+      description: 'Rebranding van ImmoHabits',
+    },
+    plantinpress: {
+      description: 'Denkbeeldig magazine voor het Plantin Instituut',
     },
   },
   alts: {
@@ -124,6 +131,14 @@ export default {
     phoneticalphabet_img4: 'Fonetisch Alfabet Archief tekenoverzicht',
     phoneticalphabet_img5: 'Fonetisch Alfabet Archief tekendetail',
     phoneticalphabet_img6: 'Fonetisch Alfabet Archief extra detail',
+    immohabits_img1: 'Immohabits home pagina',
+    immohabits_img2: 'Immohabits home pagina',
+    immohabits_img3: 'Immohabits home pagina',
+    immohabits_img4: 'Immohabits login pagina',
+    plantinpress_img1: 'Plantin Press cover',
+    plantinpress_img2: 'Plantin Press spread',
+    plantinpress_img3: 'Plantin Press halfopen magazine',
+
   },
   captions: {
     microtype_source: 'Gebaseerd op het artikel "Had de koning schoenmaat 49?" van Martin Majoor',
@@ -139,5 +154,10 @@ export default {
     archiveOfPhoneticAlphabets: 'Archief van fonetische alfabetten',
     fullCharacterSets: 'Volledige tekensets',
     underDevelopment: '*In ontwikkeling*',
+    immohabitsGroup: 'Dit project werd gerealiseerd tijdens het vak "Werkplekleren 2", waarin we samenwerkten in een interdisciplinair team aan een realistische opdracht voor Immohabits. Het doel van het project was om een volledige rebranding uit te werken en een moderne website te ontwikkelen die aansloot bij de nieuwe identiteit van het bedrijf. Gedurende 14 weken werkten we op een professionele manier, vergelijkbaar met hoe projecten verlopen binnen het werkveld. Elk teamlid had een eigen rol, waardoor we nauw konden samenwerken tussen design, development en projectmanagement.',
+    immohabitsGroup2:'Tijdens het project stonden we regelmatig in contact met de klant om feedback, voortgang en verbeteringen te bespreken. Hierdoor kregen we een beter inzicht in hoe belangrijk communicatie met klanten en teamwork zijn binnen een echt ontwikkelingsproces. Samen focusten we ons op het bouwen van een functionele en gebruiksvriendelijke website die aansloot bij de wensen van de klant. Deze ervaring gaf mij waardevolle inzichten in het werken binnen een multidisciplinair team, het omgaan met deadlines en het bijdragen aan een groter project van begin tot einde. Uiteindelijk leverden we succesvol een volledig functionele website op die zowel design als technische functionaliteit op een professionele manier combineerde.',
+    immohabitsEndProduct: 'Voor dit project werkte ik als enige front-end developer en was ik verantwoordelijk voor het ontwikkelen van de volledige gebruikersinterface van de website. Ik ontving de ontwerpen van het designteam en vertaalde deze naar een functionele webapplicatie met behulp van Vue.js. Tijdens het ontwikkelingsproces werkte ik samen met de backend developers om de API’s te integreren en de front-end te koppelen aan de backend systemen. De uiteindelijke website bestaat uit vijf pagina’s, waaronder een loginfunctionaliteit en een dashboard waar gebruikers hun persoonlijke informatie kunnen bekijken.',
+    immohabitsEndProduct2: 'Een van mijn belangrijkste aandachtspunten was ervoor zorgen dat de website responsive en gebruiksvriendelijk was op verschillende schermformaten. Naast het implementeren van de ontwerpen besteedde ik ook aandacht aan een nette codestructuur en een vlotte navigatie binnen de applicatie. Omdat ik de volledige front-end ontwikkeling zelfstandig uitvoerde, heeft dit project mij geholpen om zowel mijn technische als probleemoplossende vaardigheden verder te ontwikkelen. Daarnaast gaf het mij meer ervaring in het samenwerken met designers en backend developers binnen een groter teamproject. Tegen het einde van het project leverden we een complete en moderne website op die voldeed aan de verwachtingen van de klant en zorgde voor een gebruiksvriendelijke ervaring.',
+    magazineOfPlantin: 'Maandelijks magazine',
   },
 }
